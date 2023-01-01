@@ -2,11 +2,11 @@
 import React from 'react'
 
 const Project = () => {
-    const headingStyle = {
-        background: '#074444',
-        width: 'fit-content',
-        borderRadius: '26%'
-    }
+    // const headingStyle = {
+    //     background: '#074444',
+    //     width: 'fit-content',
+    //     borderRadius: '26%'
+    // }
     return (
         <>
             <div className="container" style={{ width: '80%', minHeight: '100vh', zIndex: '1' }}>
