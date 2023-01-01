@@ -1,0 +1,199 @@
+nav{
+  position: sticky;
+  left:0px;
+  top:0px;
+  font-size: 2rem;
+  font-family: "Yellowtail", sans-serif;
+  flex-direction: column !important;
+width: 20%;
+height: 100vh;
+padding: auto;
+justify-content: center;
+background: #00000040;
+border-right: 2px solid #3a00cd;
+
+}
+
+.slide{
+
+  position: fixed !important;
+  visibility: initial !important;
+  top:0px;
+  left: 0px;
+  z-index: 10 !important;
+  animation-name: slideani;
+  animation-duration: 0.6s;
+
+  /* width: 0px !important; */
+  width: 30% !important;
+}
+
+@keyframes slideani{
+
+  from{
+    left:-30%}
+  to{
+    left:0px;
+  }
+}
+@media(max-width:560px){
+  .my-nav{
+    width: 40% !important;
+  }
+}
+@media(max-width:400px){
+  .my-nav{
+    width: 70% !important;
+  }
+}
+@media(max-width:750px) {
+  .burger{
+    display: initial !important;
+  }
+  .my-img{
+    position: relative !important;
+    top:0px
+
+    
+    /* left: 50%; */
+  }
+  .pic-container{
+    display: flex !important;
+    justify-content: center;
+  }
+  .my-nav{
+    position: fixed !important;
+    visibility: hidden;
+    z-index: -1;
+    /* width: 40% !important; */
+  }
+  .card{
+    width: 100% !important;
+    /* height: 100vh; */
+  }
+  
+}
+
+nav a{
+
+  width: 100%;
+  padding: 20px;
+
+  margin-left: 0px;
+  color: #38ff1b;
+text-shadow: -17px 14px 3px gray;
+  text-decoration: none;
+
+}
+nav a:hover{
+  background-color: black;
+}
+.isActive{
+  color: blue !important;
+  background-color: black;
+}
+body{
+  background-color: #0b0a1e;
+}
+*{
+  font-family: "Yellowtail", sans-serif;
+}
+.neonText {
+  
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      /* 0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff, */
+      0 0 151px #5271ff;
+}
+
+.card-body *{
+  font-family: "Yellowtail", sans-serif;
+ 
+  word-wrap: break-word;
+}
+.card-body h1{
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+}
+
+
+.card{
+  z-index: 1;
+  /* height: 100vh; */
+
+  box-shadow: -4px 6px 17px white;
+  background: #08090b;
+}
+
+
+.card li{
+  
+  padding: 10px;
+  color: black;
+  font-family: "Yellowtail", sans-serif;
+  font-size: 25px;
+}
+.my-img{
+  position: fixed;
+  max-height: 100vh;
+  bottom: 0px;
+  right: 0px;
+
+}
+
+.burger{
+  position: fixed;
+  display: none;
+  top:0px;
+  left: 0px;
+
+  font-size: 34px;
+    width: 56px;
+    background: rgb(10 9 10 / 80%);
+  color: white !important;
+  z-index: 12;
+}
+
+
+
+
+/*  Education Component */
+.edu-ul{
+  border: 2px solid #32564c;
+}
+.edu-ol{
+  border-bottom: 2px solid #7c4545;
+}
+
+/*  Project route */
+
+.project-para{
+  /* color: #dd1531; */
+  color:#b17419;
+  text-shadow: 2px 2px 35px white;
+}
+
+@media(max-width:750px){
+  .container{
+    width: 100% !important;
+  }
+}
+.accordion{
+  margin: 8px;
+}
+.accordion-item{
+  background: transparent;
+  
+}
+.accordion-body{
+  font-size: 1.5rem;
+    color: #aacb7f;
+    
+}
