@@ -197,3 +197,19 @@ body{
     color: #aacb7f;
     
 }
+
+.contactCont{
+  min-height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.contactCont a{
+  text-decoration: none;
+  color: white;
+}
+.contactBody{
+  border: 2px solid white;
+}

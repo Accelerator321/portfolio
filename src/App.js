@@ -11,6 +11,8 @@ import Profile from './components/Profile';
 import Education from './components/Education';
 import Project from './components/Project'
 
+import Contact from './components/Contact'
+
 
 function App() {
 
@@ -19,8 +21,6 @@ function App() {
 
   const nav = useRef("");
  
-  
-
   const burgerMenu =()=>{
 
     if (window.innerWidth >750){
@@ -51,6 +51,7 @@ function App() {
     <Route path='/' element={<Profile/>}/>
     <Route path='/education' element={<Education/>}/>
     <Route path='/project' element={<Project/>}/>
+    <Route path='/contact' element={<Contact/>}/>
     
     </Routes>
 
